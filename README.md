@@ -11,8 +11,9 @@ Give a summary description of Four design patterns that you choose from the foll
 
 
 1. Observer Design Pattern : 
-	Observer design pattern basically used when there is one to many relationship between objects.
-	We use this pattern when we want to notify other dependent objects when there is a change happening in one Object(i.e objects property changes, when object does something).
+	The observer design pattern is an behaviour design pattern. Observer design pattern basically used when there is one to many relationship between objects.
+	We use this pattern when we want to notify other dependent objects when there is a change happening in one Object(i.e objects property changes, when object does
+	something).
 	
 	Example : 
   A Company updates to all of their employees of any change in the policy. Here Company is an subject object and employees are observer object. 	
@@ -25,9 +26,12 @@ Give a summary description of Four design patterns that you choose from the foll
   	1. Order of the notifications to subscribers can not be controlled
 	
 2. Proxy Design pattern : 
-	Proxy design pattern is basically used when you to want to add some more additional behaviour to the object with the intent of controlling the original object.
-  It is also used when you need to create a  wrapper to cover the original object's complexity and to implement lazy initialization.Proxy controlls the access to the original
-  object.Proxy design patter usecases - Security around the original object, caching the information of the original object.	
+	The proxy design pattern is an structural design pattern. Proxy design pattern is basically used when you to want to add some more additional behaviour to the object
+	with the intent of controlling the original object.
+	It is also used when you need to create a  wrapper to cover the original object's complexity and to implement lazy initialization.
+	Proxy controlls the access to the original object.
+	
+	Proxy design patter usecases - Security around the original object, caching the information of the original object.	
 	
 	Example : A Company wants to block the non work related websites using proxy
 	
@@ -47,6 +51,7 @@ Give a summary description of Four design patterns that you choose from the foll
 
 	Adavantages : 
 	1. Follows Open/Closed principle where it is possible to add new adaptors without disturbing the existing client code.
+	2. Follows Single Responsibility Principle where you can separate the interface from the business logic.
 	
 	Dis-advantages :	
 	1. Introducing more chain adaptors to reach the actual type will become an cumbersome

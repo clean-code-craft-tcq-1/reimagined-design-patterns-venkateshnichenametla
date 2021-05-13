@@ -56,4 +56,24 @@ Give a summary description of Four design patterns that you choose from the foll
 	Dis-advantages :	
 	1. Introducing more chain adaptors to reach the actual type will become an cumbersome
 
+4. Mediator Design Pattern :
+    The mediator design pattern is an behavioural design pattern.
+	
+	A mediator design pattern facilitates the communication between other components without them necessarily being aware of each other or having direct reference or access to each other.
+	
+	Mediator follows the loosly couple communication between the objects and it helps in reducing the direct references to the each other.
+	
+	
+
+	Example : Chat room participants
+	
+	Adavantages :
+	1. The biggest advantage is it reduces the communication channels needed between components from many to many to just many to one
+	2. Loose coupling, where the component depends only on the mediator
+	3. Reusability
+	
+	Dis-advantages :
+	1. Since it has to know many things it may become an god object
+	2. Since mediator has to be talk with many different classes it can become extermely complex and can make difficult to maintain
+
 	
